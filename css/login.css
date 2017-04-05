@@ -1,0 +1,358 @@
+@charset "utf-8";
+body{
+	background:#fbfbfb;
+}
+header{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;
+	border-bottom: 1px solid #7ec08a;
+}
+.top{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+.top img:first-child{
+	width: 166px;
+	height: 70px;
+	margin-top: 12px;
+}
+.top img:last-child{
+	width: 204px;
+	height: 46px;
+}
+section{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;	
+}
+section .section_top{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	 
+}
+section .section_top span{
+	font: 18px Microsoft YaHei;
+	font-weight: bolder; 
+}
+section .section_top p{
+	font: 14px Microsoft YaHei;
+}
+section .section_top p a{
+	color:#53a9e8;
+}
+section .section_main{
+	width: 1000px;
+	height: 550px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+
+}
+section .section_main .maintop{
+	width: 1000px;
+	height: 80px;
+	background-image:linear-gradient(to top,#fff,#f3f8f1);
+
+}
+section .section_main .maintop ul:first-child{
+	width: 930px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	font: 16px Microsoft YaHei;
+}
+section .section_main .maintop ul:last-child{
+	width: 885px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+section .section_main .register{
+	width: 1000px;
+	height: 470px;
+}
+section .section_main .register .success{
+	width:366px;
+	height: 65px;
+	margin: 100px auto;
+	position: relative;
+}
+section .section_main .register .success img{
+	position: absolute;
+	left:0px;
+}
+section .section_main .register .success p:nth-of-type(1){
+	position: absolute;
+	left: 70px;
+	top:14px;
+}
+section .section_main .register .success p:nth-of-type(2){
+	position: absolute;
+	left: 70px;
+	top:41px;
+}
+section .section_main .register .success>span{
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	padding: 7px 30px;
+	font: 16px;
+	color: #fff;
+	background: #ff9000;
+    font-weight: bold;
+    border-radius: 3px;
+}
+section .section_main .register .success p span{
+	color:#ff9000;
+}
+section .section_main .register .scode{
+	width: 200px;
+	height:216px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;	
+}
+footer .footer1{
+	width: 1000px;
+	height: 105px;;
+	margin:0 auto;
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;
+	padding-top: 75px;
+	box-sizing:border-box;
+}
+footer .footer1 ul{
+	width: 600px;
+	height: 16px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+footer .footer1 ul li{
+	text-align: center;
+	width: 120px;
+	border-right:1px solid #dadada;
+	font-weight: bold;
+	font: 16px Microsoft YaHei;
+}
+footer .footer1 ul li:last-child{
+	border-right:none;
+}
+footer .footer2{
+	width: 1000px;
+	height: 50px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px;
+	box-sizing:border-box;
+}
+footer .footer2 p{
+	width: 600px;
+	font: 10px Microsoft YaHei;
+	text-align: center;
+	margin: 0 auto;
+}
+footer .footer2 p span{
+	color:#9fa6ad;
+}
+
+/*验证错误时 input边框样式*/
+.error{
+	border: 1px solid #fd874c;
+}
+.over{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	background-color: rgba(1,1,1,0.3);
+	display: none;
+}
+.loginpop .pwdlogin{
+	width: 360px;
+	height: 380px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -180px;
+	margin-top:-160px;
+	z-index: 2;
+	border-radius: 8px;
+	background: #fff;
+	display: none;
+}
+.loginpop .pwdlogin ul{
+	width: 360px;
+	height: 55px;
+	box-sizing:border-box;
+}
+.loginpop .pwdlogin ul li{
+	width: 180px;
+	height: 55px;
+	float: left;
+	text-align: center;
+	font: 18px;
+	padding-top: 20px;
+	box-sizing:border-box;
+	font-weight: bold;
+}
+.loginpop .pwdlogin ul li:nth-of-type(1){
+	color: #49a76b;
+	border-bottom: 3px solid #49a76b; 
+}
+.loginpop .pwdlogin ul li:nth-of-type(2){
+	color: #a6a5a3;
+	border-bottom: 1px solid #49a76b; 
+}
+.loginpop .pwdlogin>input{
+	margin-top:26px;
+	margin-left: 30px;
+	width: 300px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+}
+.loginpop .pwdlogin>div:nth-of-type(2){
+	width: 300px;
+	height: auto;
+	margin: 16px auto 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.errorshow{
+	width: 130px;
+	padding: 6px 6px;
+	margin: 10px auto 0 auto;
+	color: #fff;
+	background:red; 
+	text-align: center;
+	display: none;
+}
+.loginpop .pwdlogin>div a{
+	color:#76bcf0;
+}
+.loginpop .pwdlogin button{
+	color:#fff;
+	font:18px;
+	padding: 8px 130px;
+	margin-left:34px;
+	margin-top:20px;
+	background: #49a75b;
+	border-radius: 5px;
+}
+.regist{
+	width: 330px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	background: #f7fbf5;
+	padding-top:18px;
+	box-sizing:border-box;
+}
+.loginpop .codelogin{
+	width: 360px;
+	height: 380px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -180px;
+	margin-top:-160px;
+	z-index: 2;
+	border-radius: 8px;
+	background: #fff;
+	display: none;
+}
+.loginpop .codelogin ul{
+	width: 360px;
+	height: 55px;
+	box-sizing:border-box;
+}
+.loginpop .codelogin ul li{
+	width: 180px;
+	height: 55px;
+	float: left;
+	text-align: center;
+	font: 18px;
+	padding-top: 20px;
+	box-sizing:border-box;
+	font-weight: bold;
+}
+.loginpop .codelogin ul li:nth-of-type(2){
+	color: #49a76b;
+	border-bottom: 3px solid #49a76b; 
+}
+.loginpop .codelogin ul li:nth-of-type(1){
+	color: #a6a5a3;
+	border-bottom: 1px solid #49a76b; 
+}
+.loginpop .codelogin>input{
+	margin-top:26px;
+	margin-left: 30px;
+	width: 126px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+}
+.loginpop .codelogin>input:nth-of-type(1){
+	margin-top:26px;
+	margin-left: 30px;
+	width: 300px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+}
+.loginpop .codelogin span:nth-of-type(2){
+	padding: 6px 9px;
+	border:1px solid #eeeeee;
+	font: 10px;
+}
+.loginpop .codelogin a{
+	color:#21aee4;
+}
+.loginpop .codelogin button{
+	color:#fff;
+	font:18px;
+	padding: 8px 130px;
+	margin-left:34px;
+	margin-top:20px;
+	background: #49a75b;
+	border-radius: 5px;
+}
+.regist2{
+	width: 330px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	background: #f7fbf5;
+	padding-top:18px;
+	box-sizing:border-box;
+}

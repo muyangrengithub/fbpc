@@ -1,0 +1,232 @@
+@charset "utf-8";
+body{
+	background:#fbfbfb;
+}
+header{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;
+	border-bottom: 1px solid #7ec08a;
+}
+.top{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+.top img:first-child{
+	width: 166px;
+	height: 70px;
+	margin-top: 12px;
+}
+.top img:last-child{
+	width: 204px;
+	height: 46px;
+}
+section{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;	
+}
+section .section_top{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	 
+}
+section .section_top span{
+	font: 18px Microsoft YaHei;
+	font-weight: bolder; 
+}
+section .section_top p{
+	font: 14px Microsoft YaHei;
+}
+section .section_top p a{
+	color:#53a9e8;
+}
+section .section_main{
+	width: 1000px;
+	height: 845px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+section .section_main .maintop{
+	width: 1000px;
+	height: 80px;
+	background-image:linear-gradient(to top,#fff,#f3f8f1);
+
+}
+section .section_main .maintop ul:first-child{
+	width: 930px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	font: 16px Microsoft YaHei;
+}
+section .section_main .maintop ul:last-child{
+	width: 885px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+section .section_main .register{
+	width: 777px;
+	height: 440px;
+	float: left;
+	position: relative;
+}
+section .section_main .register .code{
+	width: 777px;
+	height: 230px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+section .section_main .register .code p{
+	position: absolute;
+	left: 115px;
+	top: 60px;
+	font: 14px Microsoft YaHei;
+	font-weight: bold;
+}
+section .section_main .register .code div{
+	position: absolute;
+	left: 60px;
+	top: 100px;
+	display: flex;
+	align-items: center;
+}
+section .section_main .register .code div input{
+	border: 1px solid #e4e4e4;
+	width: 160px;
+	height: 30px;
+	text-indent: 10px;
+	font: 14px Microsoft YaHei;
+}
+section .section_main .register .code div label{
+	font: 14px Microsoft YaHei;
+	font-weight: bold;
+	margin-right: 10px;
+}
+section .section_main .register .code button{
+	position: absolute;
+	left: 112px;
+	top: 160px;
+	padding: 10px 24px;
+	color: #fff;
+	font: 18px Microsoft YaHei;
+	border-radius: 4px;
+	background: #ff9000;
+}
+section .section_main .register .text{
+	width: 777px;
+	height: 210px;
+	position: relative;
+}
+section .section_main .register .text p{
+	position: absolute;
+	left: 115px;
+	top: 50px;
+	font: 14px Microsoft YaHei;
+	font-weight: bold;
+}
+section .section_main .register .text button{
+	position: absolute;
+	left: 115px;
+	top: 90px;
+	padding: 10px 17px;
+	font: 14px Microsoft YaHei;
+	font-weight: bold;
+	border-radius: 3px;
+}
+section .aside{
+	width: 200px;
+	height: 396px;
+	float: right;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	padding-top: 25px;
+	margin-top: 45px;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+section .mainbottom{
+	width: 955px;
+	height: 280px;
+	background: url(../images/footer.jpg);
+	background-size: contain;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+section .aside img:nth-of-type(2){
+	margin: 20px 0 20px 0;
+}
+footer{
+	width: 100%;
+	max-width: 1533px;
+	height: auto;
+	overflow: hidden;
+	margin:0 auto;	
+}
+footer .footer1{
+	width: 1000px;
+
+	height: 105px;
+	padding-top: 75px;
+	box-sizing:border-box;
+	margin:0 auto;
+	border-bottom: 1px solid #eeeeee;
+}
+footer .footer1 ul{
+	width: 600px;
+	height: 16px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+footer .footer1 ul li{
+	text-align: center;
+	width: 120px;
+	border-right:1px solid #dadada;
+	font-weight: bold;
+	font: 16px Microsoft YaHei;
+}
+footer .footer1 ul li:last-child{
+	border-right:none;
+}
+footer .footer2{
+	width: 1000px;
+	
+	height: 53px;
+	margin: 0 auto;
+	padding-top: 20px;
+	box-sizing:border-box;
+}
+footer .footer2 p{
+	font: 12px Microsoft YaHei;
+	width: 450px;
+	text-align: center;
+	margin: 0 auto;
+}
+footer .footer2 p span{
+	color:#9fa6ad;
+}
+.num{
+	color: #ff9e00;
+}
+.codeshow{
+	background: pink;
+	color: #fff;
+	padding: 8px;
+	margin-left: 3px;
+}
